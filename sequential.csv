@@ -1,0 +1,19 @@
+RunSize,Task,DatasetSize,Result,ExecutionTime(ms)
+Small,BasicStatistics,1000000,5004.56,8.9544
+Small,Histogram,1000000,10 bins,3.5144
+Small,Sorting,1000000,Completed,151.415
+Small,Correlation,1000000,0.944781,3.2986
+Small,MovingAverage,1000000,Window=5,7.2773
+Small,OutlierDetection,1000000,0,2.4242
+Medium,BasicStatistics,10000000,5000.95,80.5902
+Medium,Histogram,10000000,10 bins,32.0293
+Medium,Sorting,10000000,Completed,2405.03
+Medium,Correlation,10000000,0.944921,42.7321
+Medium,MovingAverage,10000000,Window=5,101.134
+Medium,OutlierDetection,10000000,0,35.703
+Large,BasicStatistics,100000000,5000.33,961.184
+Large,Histogram,100000000,10 bins,595.528
+Large,Sorting,100000000,Completed,27177.2
+Large,Correlation,100000000,0.94491,1043.97
+Large,MovingAverage,100000000,Window=5,1249.23
+Large,OutlierDetection,100000000,0,556.196
